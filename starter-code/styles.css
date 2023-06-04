@@ -6,8 +6,8 @@
 
 }
 body {
-    font-family: Poppins;
-    
+    font-family: monospace;
+    font-weight: 350;
     background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
     
 }
@@ -18,27 +18,101 @@ body {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 20px;
+    
 
 }
 #logo {
     padding: 10px;
     size: 10px;
     padding-left: 50px;
+    padding-right: 50px;
+}
+.vline {
+    border-bottom: 2px solid whitesmoke;
+    height: 50px;
 }
 .nav-bar{
     display: flex;
     justify-content: flex-end;
-    padding:30px;
+    flex-wrap: wrap;
+    padding:27px;
     align-items: center;
-   
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-bottom: 1px;
     background-color: rgba(29, 58, 81, 0.765);
+    
 }
+
 .nav{
     margin-right: 50px;
     color: beige;
-    font-weight: bolder;
+    font-weight: 300;
     text-decoration: none;
+    font-style: oblique;
+    padding: 10px;
+    
 }
+.nums {
+    font-weight: 900;
+    
+    font-size: larger;
+    font-style: oblique;
+}
+a:hover{
+    border-bottom: 3px solid azure;
+    height: -2px;
+   
+    
+    
+}
+.medium-text {
+    width: 400px;
+    color: rgb(208, 205, 205);
+    margin-top: 200px;
+    
+    font-size: large;
+    
+}
+.large-text {
+    width: 470px;
+    color: white;
+    
+    font-size: 100PX;
+    font-family:'Cormorant Garamond';
+
+}
+.small-text {
+    width: 470px;
+    color: rgb(179, 174, 174);
+    
+    font-size: medium;
+}
+.white-circle {
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+}
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
 
 
    

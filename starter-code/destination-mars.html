@@ -5,33 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+    <style>body{background-image:url(../starter-code/assets/destination/background-destination-desktop.jpg);}</style>
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <div class="topbar">
+    <div id="logo"><img src="../starter-code/assets/shared/logo.svg" alt="logo"></div>
+  
+    <div class="nav-bar">
+    <a class="nav" href="index.html"> <span class="nums">00</span>  HOME</a> 
+    <a class="nav" href="destination.html"><span class="nums">01</span> DESTINATION</a> 
+    <a class="nav" href="CREW"><span class="nums">02</span> CREW</a> 
+    <a class="nav" href="Technology"><span class="nums">03</span> TECHNOLOGY</a> 
+    </div>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+   <div class=" heading"><span class="heading-nums">01</span> PICK YOUR DESTINATION</div>
+   <div class="img-text"> 
+      <div class="dest-image"><img src="../starter-code/assets/destination/image-mars.png" alt="an imageof planet mars"></div>
+      <div class="dest-text">
+        <a class="dest-nav" href="destination-mars.html">Mars</a>
+        <a class="dest-nav" href="destination-europa.html"> Europa</a>
+        <a class="dest-nav" href="destination-titan.html"> Titan</a>
+        <a class="dest-nav" href="destination-moon.html">Moon</a>
+        
+        <div class="dest">MARS</div>
 
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Mars
-
-  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+        <div class="description"> Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
   the tallest planetary mountain in our solar system. It’s two and a half times 
-  the size of Everest!
+  the size of Everest!</div>
 
-  Avg. distance
-  225 mil. km
+        <div class="distance-time">
+          <div class="distance-text">Avg. distance</div> 
+          <div class="distance-nums">225 mil. km</div>
 
-  Est. travel time
-  9 months
+          <div class="time-text">Est. travel time</div>
+          <div class="time-months">9 months</div>
+      </div>
+   </div>
+  </div>
 </body>
 </html>

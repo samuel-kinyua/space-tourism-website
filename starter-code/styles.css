@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 10px;
     
 
 }
@@ -39,6 +39,7 @@ body {
     align-items: center;
     width: 50%;
     margin-bottom: 70px;
+    padding-left: 20px;
    
     padding-right: 40px;
     padding-bottom: 1px;
@@ -48,7 +49,7 @@ body {
 
 .nav{
     margin-right: 50px;
-    color: beige;
+    color: rgb(171, 181, 198);
     font-weight: 300;
     text-decoration: none;
     font-style: oblique;
@@ -57,7 +58,7 @@ body {
 }
 .nums {
     font-weight: 900;
-    
+    color: white;
     font-size: larger;
     font-style: oblique;
 }
@@ -70,45 +71,49 @@ a:hover{
 }
 .medium-text {
     width: 500px;
-    color: rgb(208, 205, 205);
-    margin-top: 200px;
+    color: rgb(171, 181, 198);
+    margin-top: 80px;
     
-    font-size: 27px;
+    font-size: 25px;
     
 }
 .large-text {
-    width: 470px;
+    width: 200px;
     color: white;
     
-    font-size: 140PX;
+    font-size: 120PX;
     font-family:'Cormorant Garamond';
 
 }
 .small-text {
     width: 470px;
-    color: rgb(179, 174, 174);
-    
-    font-size: 15px;
+    color: rgb(171, 181, 198);
+    line-height: 25px;
+    font-size: 13px;
 }
 .white-circle {
     display: flex;
     color: black;
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     align-items: center;
     border-radius: 50%;
     justify-content: center;
     margin-top: 300px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight:100;
+    margin-bottom: 90px;
     text-decoration: none;
+    
+  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 
 }
 .white-circle:hover{
+
     background-color:rgb(179, 174, 174) ;
 }
 .home-content {
@@ -144,7 +149,7 @@ a:hover{
     font-size: large;
 }
 .dest-nav {
-    color: white;
+    color: rgb(171, 181, 198);
     text-decoration: none;
     padding-bottom: 6px;
     margin-top: 200px;
@@ -160,9 +165,37 @@ a:hover{
     font-size: 100px;
     font-weight: 400;
     margin-bottom: 30px;
+    margin-top: 15px;
 }
 .dest-image {
     padding-top: 80px;
 }
+.description{
+    width: 500px;
+    font-size: 20px;
+    color: rgb(171, 181, 198);
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+.distance-time {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.distance-text{
+    color:rgb(171, 181, 198) ;
+}
+.time-text{
+    color:rgb(171, 181, 198) ;
+
+}
+.distance-nums{
+    font-size: 30px;
+}
+.time-months{
+    font-size: 30px;
+}
+
 
    

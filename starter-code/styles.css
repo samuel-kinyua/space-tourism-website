@@ -77,6 +77,14 @@ a:hover{
     font-size: 25px;
     
 }
+.medium-text-crew{
+    width: 500px;
+    color: rgb(171, 181, 198);
+    margin-top: 40px;
+    
+    font-size: 35px;
+
+}
 .large-text {
     width: 200px;
     color: white;
@@ -85,11 +93,25 @@ a:hover{
     font-family:'Cormorant Garamond';
 
 }
+.large-text-crew{
+    width: 600px;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
 .small-text {
     width: 470px;
     color: rgb(171, 181, 198);
     line-height: 25px;
     font-size: 13px;
+    
+}
+.small-text-crew{
+    width: 470px;
+    color: rgb(171, 181, 198);
+    line-height: 25px;
+    font-size: 15px;
+
 }
 .white-circle {
     display: flex;
@@ -195,6 +217,18 @@ a:hover{
 }
 .time-months{
     font-size: 30px;
+}
+.crew-slides{
+    margin-top: 100px;
+}
+.slide{
+    background-color: rgb(171, 181, 198);
+    text-decoration: none;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    color: transparent;
+    margin: 5px;
 }
 
 

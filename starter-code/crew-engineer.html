@@ -5,23 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <style>body{background-image:url(../starter-code/assets/crew/background-crew-desktop.jpg);} 
+  </style>
+  <style>body{background-size: 100%}; </style>
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  02 Meet your crew
-
-  Flight Engineer
-  Anousheh Ansari
-
-  Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
-  Ansari was the fourth self-funded space tourist, the first self-funded woman to 
-  fly to the ISS, and the first Iranian in space. 
+  <div class="topbar">
+    <div id="logo"><img src="../starter-code/assets/shared/logo.svg" alt="logo"></div>
+  
+    <div class="nav-bar">
+    <a class="nav" href="index.html"> <span class="nums">00</span>  HOME</a> 
+    <a class="nav" href="destination.html"><span class="nums">01</span> DESTINATION</a> 
+    <a class="nav" href="CREW"><span class="nums">02</span> CREW</a> 
+    <a class="nav" href="Technology"><span class="nums">03</span> TECHNOLOGY</a> 
+    </div>
+  </div>
+  <div class=" heading"><span class="heading-nums">02</span> MEET YOUR CREW</div>
+  
+  <div class="home-content">
+    <div class="home-msg">
+      <div class="medium-text-crew">FLIGHT ENGINEER</div> 
+      <div class="large-text-crew">  Anousheh Ansari</div>
+     <div  class="small-text-crew">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+      Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+      fly to the ISS, and the first Iranian in space.</div>
+      <div class="crew-slides">
+      <a class="slide" href="crew-pilot.html">bl</a>
+      <a class="slide" href="crew-commander.html">bl</a>
+      <a class="slide" href="crew-specialist.html">bl</a>
+      <a class="slide" href="crew-engineer.html">bl</a>
+    </div> 
+    </div>
+    
+    <div class="dest-image"><img src="../starter-code/assets/crew/image-anousheh-ansari.png" alt="a photo of Flight Engineer
+      Anousheh Ansari "></div>
+     
+  </div>
+  
 </body>
 </html>

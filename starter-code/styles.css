@@ -8,7 +8,7 @@
 body {
     font-family: monospace;
     font-weight: 350;
-    /*background-image: url("../starter-code/assets/home/background-home-desktop.jpg");*/
+    background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
     
 }
 
@@ -43,28 +43,36 @@ body {
     width: 50%;
     margin-bottom: 70px;
     padding-left: 20px;
+    justify-content: space-between;
    
     padding-right: 40px;
     padding-bottom: 1px;
    
     background-color: rgba(29, 58, 81, 0.765);
     
+    
 }
 
 .nav{
+    display: flex;
+    flex-wrap: wrap;
     margin-right: 50px;
     color: rgb(171, 181, 198);
-    font-weight: 300;
+    
     text-decoration: none;
     font-style: oblique;
     padding: 10px;
+    font-size: 15px;
+    
+    
     
 }
 .nums {
-    font-weight: 900;
+    font-weight: 700;
     color: white;
     font-size: larger;
     font-style: oblique;
+    margin-right: 5px;
 }
 a:hover{
     border-bottom: 3px solid azure;
@@ -174,8 +182,16 @@ a:hover{
 }
 .img-text {
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+.dest-image{
+    
+}
+.dest-image img{
+    max-width: 100%;
+    height: auto;
+    
 }
 
 .dest-text {
@@ -273,6 +289,162 @@ a:hover{
     background-color: white;
     color: black;
 }
+.home{
+    background-image:url(../starter-code/assets/home/background-home-desktop.jpg);
+    background-size: 100%;
+
+}
 
 
+   @media all and (max-width:500px){
+    .home{
+        background-image:url(../starter-code/assets/home/background-home-mobile.jpg);
+        background-size: 210%;
+
+    }
+    .destination{
+        background-image: url(../starter-code/assets/destination/background-destination-mobile.jpg);
+        background-size: 210%;
+    }
+    .crew{
+        background-image: url(../starter-code/assets/crew/background-crew-mobile.jpg);
+        background-size: 210%;
+
+    }
+    .technology{
+        background-image: url(../starter-code/assets/technology/background-technology-mobile.jpg);
+        background-size: 210%;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .medium-text {
+        width: 300px;
+        
+        font-size: 19px;
+        
+    }
+    .large-text {
+        width: 200px;
+        
+        font-size: 90PX;
+        
+    
+    }
+    
+    .small-text {
+        width: 320px;
+        color: rgb(171, 181, 198);
+        line-height: 25px;
+        font-size: 15px;
+        
+    }
+    .nums{
+        display: none;
+    }
+    .img-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .dest-image img{
+        width: 80%;
+        margin-left: 50px;
+        
+    }
+    .description{
+        width: 350px;
+        font-size: 13px;
+        margin-left: 12px;
+    }
+    .dest{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .distance-nums{
+        font-size: 15px;
+    }
+    .time-months{
+        font-size: 15px;
+
+    }
    
+    
+    
+
+   }
+   @media all and (min-width:501px) and (max-width:1024px){
+    .home{
+        background-image:url(../starter-code/assets/home/background-home-tablet.jpg);
+        background-size: 200%;
+
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination{
+        background-image: url(../starter-code/assets/destination/background-destination-tablet.jpg);
+        background-size: 210%;
+    }
+    .crew{
+        background-image: url(../starter-code/assets/crew/background-crew-tablet.jpg);
+        background-size: 210%;
+
+    }
+    .technology{
+        background-image: url(../starter-code/assets/technology/background-technology-tablet.jpg);
+        background-size: 210%;
+    }
+    .medium-text {
+        width: 600px;
+        
+        font-size: 39px;
+        
+    }
+    .large-text {
+        width: 600px;
+        
+        font-size: 210PX;
+        
+    
+    }
+    
+    .small-text {
+        width: 700px;
+        color: rgb(171, 181, 198);
+        line-height: 45px;
+        font-size: 30px;
+        
+    }
+    .white-circle{
+        height: 500px;
+        width: 500px;
+        font-size: 65px;
+    font-weight:150;
+
+    }
+    .nav-bar{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 70%;
+        padding: 30px;
+        
+        
+        
+    }
+    .nav{
+        font-size: 18px;
+        margin-right: 10px;
+        
+    }
+    .nums{
+        display: none;
+    }
+    
+
+  
+
+   }
+   
+  

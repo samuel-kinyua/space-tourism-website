@@ -368,7 +368,37 @@ a:hover{
         font-size: 15px;
 
     }
-   
+   .home-content{
+    display: flex;
+    flex-direction: column;
+   }
+   .medium-text-crew{
+    font-size: 20px;
+    margin-left: 20px;
+    width: 200px;
+   }
+   .large-text-crew{
+    font-size: 30px;
+    margin-left: 20px;
+    width: 300px;
+   }
+   .small-text-crew{
+    width: 350px;
+    margin-left: 20px;
+    font-size: 12px;
+
+   }
+   .crew-image img{
+    width: 80%;
+    height: auto;
+    margin-left:30px;
+   }
+   .crew-slides{
+    position: absolute;
+    top: 720px;
+    left: 110px;
+
+   }
     
     
 
@@ -394,7 +424,7 @@ a:hover{
     }
     .technology{
         background-image: url(../starter-code/assets/technology/background-technology-tablet.jpg);
-        background-size: 210%;
+        background-size: 220%;
     }
     .medium-text {
         width: 600px;
@@ -441,6 +471,35 @@ a:hover{
     .nums{
         display: none;
     }
+
+    .medium-text-crew{
+        font-size: 35px;
+        
+       }
+       .large-text-crew{
+        font-size: 60px;
+        width:700px;
+        
+       }
+       .small-text-crew{
+       line-height: 28px;
+       width:700px;
+        font-size: 26px;
+    
+       }
+       
+       
+       .crew-slides{
+        position: relative;
+        left: 100px;
+        
+
+       }
+       .crew-image img{
+        width: 120%;
+        height: auto;
+       }
+       
     
 
   

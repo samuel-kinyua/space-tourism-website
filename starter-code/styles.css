@@ -402,17 +402,17 @@ a:hover{
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    width: 330px;
+    width: 300px;
    }
    .medium-text-tech{
-    width: 200px;
+    width: 300px;
     margin-left: 20px;
    }
    .large-text-tech{
-    width: 200px;
+    width: 300px;
    }
    .small-text-crew{
-    width: 200px;
+    width: 300px;
     font-size: 15px;
     margin-right: 20px;
    }
@@ -423,8 +423,9 @@ a:hover{
    font-size: 20px;
    }
    .dest-image{
+    margin-right: 30px;
 
-    width: 350px;
+    width: 300px;
    }
    
    

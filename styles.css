@@ -1,0 +1,546 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+body {
+    font-family: monospace;
+    font-weight: 350;
+    
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    
+    
+    
+
+}
+#logo {
+    padding: 10px;
+    size: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+.vline {
+    border-bottom: 2px solid whitesmoke;
+    height: 50px;
+}
+.nav-bar{
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding:27px;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    justify-content: space-between;
+   
+    padding-right: 40px;
+    padding-bottom: 1px;
+   
+    background-color: rgba(29, 58, 81, 0.765);
+    
+    
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    color: rgb(171, 181, 198);
+    
+    text-decoration: none;
+    font-style: oblique;
+    padding: 10px;
+    font-size: 15px;
+    
+    
+    
+}
+.nums {
+    font-weight: 700;
+    color: white;
+    font-size: larger;
+    font-style: oblique;
+    margin-right: 5px;
+}
+a:hover{
+    border-bottom: 3px solid azure;
+    height: -2px;
+   
+    
+    
+}
+.medium-text {
+    width: 500px;
+    color: rgb(171, 181, 198);
+    margin-top: 80px;
+    
+    font-size: 25px;
+    
+}
+.medium-text-crew{
+    width: 500px;
+    color: rgb(171, 181, 198);
+    margin-top: 40px;
+    
+    font-size: 35px;
+
+}
+.medium-text-tech{
+    width: 500px;
+    color: rgb(171, 181, 198);
+    margin-top: 40px;
+    
+    font-size: 15px;
+
+}
+.large-text {
+    width: 200px;
+    color: white;
+    
+    font-size: 120PX;
+    font-family:'Cormorant Garamond';
+
+}
+.large-text-crew{
+    width: 600px;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+.small-text {
+    width: 470px;
+    color: rgb(171, 181, 198);
+    line-height: 25px;
+    font-size: 13px;
+    
+}
+.small-text-crew{
+    width: 470px;
+    color: rgb(171, 181, 198);
+    line-height: 25px;
+    font-size: 15px;
+
+}
+.white-circle {
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 45px;
+    font-weight:100;
+    margin-bottom: 90px;
+    text-decoration: none;
+    
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+}
+.white-circle:hover{
+
+    background-color:rgb(179, 174, 174) ;
+}
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.heading {
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+}
+.heading-nums{
+    color:rgb(179, 174, 174);
+    font-style: oblique;
+    font-size: 22px;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-weight: bold;
+
+
+}
+.img-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dest-image{
+    
+}
+.dest-image img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.dest-text {
+    color: white;
+    font-size: 70px;
+    font-size: large;
+}
+.dest-nav {
+    color: rgb(171, 181, 198);
+    text-decoration: none;
+    padding-bottom: 6px;
+    margin-top: 200px;
+    margin-right: 10px;
+   
+
+    
+}
+.description {
+    width: 500px;
+}
+.dest {
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.dest-image {
+    padding-top: 80px;
+}
+.description{
+    width: 500px;
+    font-size: 20px;
+    color: rgb(171, 181, 198);
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+.distance-time {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.distance-text{
+    color:rgb(171, 181, 198) ;
+}
+.time-text{
+    color:rgb(171, 181, 198) ;
+
+}
+.distance-nums{
+    font-size: 30px;
+}
+.time-months{
+    font-size: 30px;
+}
+.crew-slides{
+    margin-top: 100px;
+}
+.slide:hover{
+    background-color: white;
+    transform: scale(2);
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+
+}
+.slide{
+    background-color: rgb(171, 181, 198);
+    text-decoration: none;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    color: transparent;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+.techslide{
+   display: flex;
+   flex-direction: column;
+   background-color: transparent;
+   text-decoration: none;
+   height: 72px;
+   width: 72px;
+   font-size: 30px;
+   border: 1px solid rgb(171, 181, 198);
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   color: white;
+   padding: 10px;
+   margin: 30px;
+   transition: transform 0.3s ease;
+}
+.techslide:hover{
+    background-color: white;
+    color: black;
+}
+.home{
+    background-image:url(../starter-code/assets/home/background-home-desktop.jpg);
+    background-size: 100%;
+
+}
+
+
+   @media all and (max-width:500px){
+    .home{
+        background-image:url(../starter-code/assets/home/background-home-mobile.jpg);
+        background-size: 210%;
+
+    }
+    .destination{
+        background-image: url(../starter-code/assets/destination/background-destination-mobile.jpg);
+        background-size: 210%;
+    }
+    .crew{
+        background-image: url(../starter-code/assets/crew/background-crew-mobile.jpg);
+        background-size: 210%;
+
+    }
+    .technology{
+        background-image: url(../starter-code/assets/technology/background-technology-mobile.jpg);
+        background-size: 210%;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .medium-text {
+        width: 300px;
+        
+        font-size: 19px;
+        
+    }
+    .large-text {
+        width: 200px;
+        
+        font-size: 90PX;
+        
+    
+    }
+    
+    .small-text {
+        width: 320px;
+        color: rgb(171, 181, 198);
+        line-height: 25px;
+        font-size: 15px;
+        
+    }
+    .nums{
+        display: none;
+    }
+    .img-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .dest-image img{
+        width: 80%;
+        margin-left: 50px;
+        
+    }
+    .description{
+        width: 350px;
+        font-size: 13px;
+        margin-left: 12px;
+    }
+    .dest{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .distance-nums{
+        font-size: 15px;
+    }
+    .time-months{
+        font-size: 15px;
+
+    }
+   .home-content{
+    display: flex;
+    flex-direction: column;
+   }
+   .medium-text-crew{
+    font-size: 20px;
+    margin-left: 20px;
+    width: 200px;
+   }
+   .large-text-crew{
+    font-size: 30px;
+    margin-left: 20px;
+    width: 300px;
+   }
+   .small-text-crew{
+    width: 350px;
+    margin-left: 20px;
+    font-size: 12px;
+
+   }
+   .crew-image img{
+    width: 80%;
+    height: auto;
+    margin-left:30px;
+   }
+   .crew-slides{
+    position: absolute;
+    top: 720px;
+    left: 110px;
+
+   }
+   .tech-slides{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+   }
+   .medium-text-tech{
+    width: 300px;
+    margin-left: 20px;
+   }
+   .large-text-tech{
+    width: 300px;
+   }
+   .small-text-tech{
+    width: 350px;
+   }
+   .techslide{
+    margin: 20px;
+    height: 52px;
+   width: 52px;
+   font-size: 20px;
+   }
+   
+
+   }
+   @media all and (min-width:501px) and (max-width:1024px){
+    .home{
+        background-image:url(../starter-code/assets/home/background-home-tablet.jpg);
+        background-size: 200%;
+
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination{
+        background-image: url(../starter-code/assets/destination/background-destination-tablet.jpg);
+        background-size: 210%;
+    }
+    .crew{
+        background-image: url(../starter-code/assets/crew/background-crew-tablet.jpg);
+        background-size: 210%;
+
+    }
+    .technology{
+        background-image: url(../starter-code/assets/technology/background-technology-tablet.jpg);
+        background-size: 220%;
+    }
+    .medium-text {
+        width: 600px;
+        
+        font-size: 39px;
+        
+    }
+    .large-text {
+        width: 600px;
+        
+        font-size: 210PX;
+        
+    
+    }
+    
+    .small-text {
+        width: 700px;
+        color: rgb(171, 181, 198);
+        line-height: 45px;
+        font-size: 30px;
+        
+    }
+    .white-circle{
+        height: 500px;
+        width: 500px;
+        font-size: 65px;
+    font-weight:150;
+
+    }
+    .nav-bar{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 70%;
+        padding: 30px;
+        
+        
+        
+    }
+    .nav{
+        font-size: 18px;
+        margin-right: 10px;
+        
+    }
+    .nums{
+        display: none;
+    }
+
+    .medium-text-crew{
+        font-size: 35px;
+        
+       }
+       .large-text-crew{
+        font-size: 60px;
+        width:700px;
+        
+       }
+       .small-text-crew{
+       line-height: 28px;
+       width:700px;
+        font-size: 26px;
+    
+       }
+       
+       
+       .crew-slides{
+        position: relative;
+        left: 100px;
+        
+
+       }
+       .crew-image img{
+        width: 120%;
+        height: auto;
+       }
+       .tech-slides{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+       }
+       .techslide{
+        margin: 30px;
+        height: 72px;
+       width: 72px;
+       font-size: 40px;
+       padding: 40px;
+       }
+       .medium-text-tech{
+        font-size: 30px;
+       }
+       .dest-image img{
+        width: 200%;
+        min-height: auto;
+       }
+    
+
+  
+
+   }
+   
+  

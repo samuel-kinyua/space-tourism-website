@@ -8,7 +8,6 @@
 body {
     font-family: monospace;
     font-weight: 350;
-    background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
     
 }
 
@@ -399,8 +398,28 @@ a:hover{
     left: 110px;
 
    }
-    
-    
+   .tech-slides{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+   }
+   .medium-text-tech{
+    width: 300px;
+    margin-left: 20px;
+   }
+   .large-text-tech{
+    width: 300px;
+   }
+   .small-text-tech{
+    width: 350px;
+   }
+   .techslide{
+    margin: 20px;
+    height: 52px;
+   width: 52px;
+   font-size: 20px;
+   }
+   
 
    }
    @media all and (min-width:501px) and (max-width:1024px){
@@ -499,7 +518,25 @@ a:hover{
         width: 120%;
         height: auto;
        }
-       
+       .tech-slides{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+       }
+       .techslide{
+        margin: 30px;
+        height: 72px;
+       width: 72px;
+       font-size: 40px;
+       padding: 40px;
+       }
+       .medium-text-tech{
+        font-size: 30px;
+       }
+       .dest-image img{
+        width: 200%;
+        min-height: auto;
+       }
     
 
   

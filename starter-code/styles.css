@@ -410,14 +410,19 @@ a:hover{
    .large-text-tech{
     width: 300px;
    }
-   .small-text-tech{
-    width: 350px;
+   .small-text-crew{
+    width: 330px;
+    font-size: 15px;
+    margin-right: 20px;
    }
    .techslide{
     margin: 20px;
     height: 52px;
    width: 52px;
    font-size: 20px;
+   }
+   .dest-image{
+    margin-right: 30px;
    }
    
 

@@ -17,11 +17,10 @@ body {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 10px;
-    
-    
-    
+
 
 }
+
 #logo {
     padding: 10px;
     size: 10px;
@@ -32,6 +31,12 @@ body {
 .vline {
     border-bottom: 2px solid whitesmoke;
     height: 50px;
+}
+#hamburger-menu{
+    display: none;
+    width: 10px;
+    width: 10px;
+    
 }
 .nav-bar{
     display: flex;
@@ -314,6 +319,22 @@ a:hover{
         background-image: url(../starter-code/assets/technology/background-technology-mobile.jpg);
         background-size: 210%;
     }
+    #hamburger-menu{
+        display: flex;
+        width: 35px;
+        height:35px;
+        justify-content: space-around;
+        margin-right: 20px;
+        margin-top: 10px;
+
+        
+    }
+    .dest-nav{
+        margin-left: 20px;
+    }
+    .nav-bar{
+        display: none;
+    }
     .home-content{
         display: flex;
         flex-direction: column;
@@ -402,6 +423,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     margin-left: 10px;
+    width: 300px;
    }
    .medium-text-tech{
     width: 300px;
@@ -410,8 +432,10 @@ a:hover{
    .large-text-tech{
     width: 300px;
    }
-   .small-text-tech{
-    width: 350px;
+   .small-text-crew{
+    width: 300px;
+    font-size: 15px;
+    margin-right: 20px;
    }
    .techslide{
     margin: 20px;
@@ -419,6 +443,13 @@ a:hover{
    width: 52px;
    font-size: 20px;
    }
+   .dest-image{
+    margin-right: 30px;
+
+    width: 300px;
+   }
+   
+   
    
 
    }

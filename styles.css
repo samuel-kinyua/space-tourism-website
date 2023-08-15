@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    
     margin-top: 10px;
 
 
@@ -44,7 +44,7 @@ body {
     flex-wrap: wrap;
     padding:27px;
     align-items: center;
-    width: 50%;
+    
     margin-bottom: 70px;
     padding-left: 20px;
     justify-content: space-between;
@@ -70,6 +70,10 @@ body {
     
     
     
+}
+.nav.active{
+    border-bottom: 4px solid rgb(64, 64, 70);
+    height: -1;
 }
 .nums {
     font-weight: 700;
@@ -319,7 +323,7 @@ a:hover{
         background-image: url(../starter-code/assets/technology/background-technology-mobile.jpg);
         background-size: 210%;
     }
-    #hamburger-menu{
+    /*#hamburger-menu{
         display: flex;
         width: 35px;
         height:35px;
@@ -328,13 +332,37 @@ a:hover{
         margin-top: 10px;
 
         
-    }
+    }*/
     .dest-nav{
         margin-left: 20px;
     }
-    .nav-bar{
-        display: none;
+    
+    .nav-bar {
+        background-color: hsl(0 0% 100% /0.1);
+        position: fixed;
+        backdrop-filter: blur(1rem);
+        
+       
+        inset: 0 0 0 30%;
+        margin-bottom: 0px;
+        
+        
+       
     }
+    .nav{
+        
+        flex-direction: column;
+        
+       
+    }
+    .links{
+        text-decoration: none;
+        align-items: flex-start;
+       
+        margin-top: -300px;
+        list-style: none;
+    }
+    
     .home-content{
         display: flex;
         flex-direction: column;

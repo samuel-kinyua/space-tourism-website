@@ -11,14 +11,22 @@ body {
     
 }
 
+
 .topbar {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     
+    
     margin-top: 10px;
 
 
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
 }
 
 #logo {
@@ -43,16 +51,27 @@ body {
     
     flex-wrap: wrap;
     padding:27px;
-    align-items: center;
-    
+   
+    justify-content: flex-end;
     margin-bottom: 70px;
     padding-left: 20px;
-    justify-content: space-between;
+   
    
     padding-right: 40px;
     padding-bottom: 1px;
+    align-items: end;
    
-    background-color: rgba(29, 58, 81, 0.765);
+
+    /*test*/
+    background-color: hsl(0 0% 100% /0.1);
+        
+        backdrop-filter: blur(1rem);
+        
+       
+        
+      
+        
+        
     
     
 }
@@ -349,17 +368,15 @@ a:hover{
         
        
     }
-    .nav{
-        
+    
+    .links{
+        margin-bottom: 450px;
         flex-direction: column;
         
+    
+      
        
-    }
-    .links{
-        text-decoration: none;
-        align-items: flex-start;
-       
-        margin-top: -300px;
+        
         list-style: none;
     }
     
@@ -487,6 +504,12 @@ a:hover{
         background-size: 200%;
 
     }
+    .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
     .home-content{
         display: flex;
         flex-direction: column;
@@ -537,6 +560,11 @@ a:hover{
         flex-wrap: nowrap;
         width: 70%;
         padding: 30px;
+
+        background-color: hsl(0 0% 100% /0.1);
+        
+        backdrop-filter: blur(1rem);
+        
         
         
         

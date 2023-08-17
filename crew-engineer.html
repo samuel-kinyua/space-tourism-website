@@ -8,6 +8,7 @@
   <style>body{background-image:url(../starter-code/assets/crew/background-crew-desktop.jpg);} 
   </style>
   <style>body{background-size: 100%}; </style>
+  <script defer src="main.js"></script>
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -15,7 +16,7 @@
   <div class="topbar">
     <a class="logoHomePage" href="index.html"><div id="logo"><img src="../starter-code/assets/shared/logo.svg" alt="logo"></div></a>
   
-    <div class="nav-bar">
+    <div data-visible="false"  class="nav-bar">
       <ul class="links">
     
         <li><a class="nav" href="index.html"> <span class="nums">00</span> HOME</a> </li>
@@ -25,8 +26,7 @@
       </ul>
     </div>
       </div>
-      <div id="hamburger-menu"><img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu I con"></div>   
-  </div>
+      <button class="hamburger-menu" aria-expanded="false"></button>   </div>
   <div class=" heading"><span class="heading-nums">02</span> MEET YOUR CREW</div>
   
   <div class="home-content">

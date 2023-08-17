@@ -7,6 +7,8 @@
   <style>body{background-image:url(../starter-code/assets/crew/background-crew-desktop.jpg); background-size: 100%;} 
   </style>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script defer src="main.js"></script>
+
   <link rel="stylesheet" href="styles.css">
   
  
@@ -16,7 +18,7 @@
   <div class="topbar">
     <a class="logoHomePage" href="index.html"><div id="logo"><img src="../starter-code/assets/shared/logo.svg" alt="logo"></div></a>
   
-    <div class="nav-bar">
+    <div data-visible="false" class="nav-bar">
       <ul class="links">
     
         <li><a class="nav" href="index.html"> <span class="nums">00</span> HOME</a> </li>
@@ -25,8 +27,10 @@
       <li> <a class="nav" href="technology-vehicle.html"><span class="nums">03 </span>TECHNOLOGY</a> </li>
       </ul>
     </div> 
+    <button class="hamburger-menu" aria-expanded="false"></button> 
       </div>
-      <div id="hamburger-menu"><img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu I con"></div>   
+      
+  
   </div>
   <div class=" heading"><span class="heading-nums">02</span> MEET YOUR CREW</div>
   

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script defer src="main.js"></script>
   <link rel="stylesheet" href="styles.css">
     <style>body{background-image:url(../starter-code/assets/destination/background-destination-desktop.jpg);}</style>
   <title>Frontend Mentor | Space tourism website</title>
@@ -13,7 +14,7 @@
   <div class="topbar">
     <a class="logoHomePage" href="index.html"><div id="logo"><img src="../starter-code/assets/shared/logo.svg" alt="logo"></div></a>
   
-    <div class="nav-bar">
+    <div data-visible="false" class="nav-bar">
       <ul class="links">
     
         <li><a class="nav" href="index.html"> <span class="nums">00</span> HOME</a> </li>
@@ -23,8 +24,7 @@
       </ul>
     </div> 
       </div>
-      <div id="hamburger-menu"><img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu I con"></div>   
-  </div>
+      <button class="hamburger-menu" aria-expanded="false"></button>   </div>
 
    <div class=" heading"><span class="heading-nums">01</span> PICK YOUR DESTINATION</div>
    <div class="img-text"> 

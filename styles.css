@@ -94,10 +94,7 @@ body {
     
     
 }
-.nav.active{
-    border-bottom: 4px solid rgb(64, 64, 70);
-    height: -1;
-}
+
 .nums {
     font-weight: 700;
     color: white;
@@ -372,7 +369,14 @@ a:hover{
         height: 20px;
 
     }
+    a:hover{
+        border-bottom: none;
         
+       
+        
+        
+    }
+    
     
     
     .dest-nav{

@@ -541,7 +541,8 @@ a:hover{
    @media all and (min-width:501px) and (max-width:1024px){
     .home{
         background-image:url(../starter-code/assets/home/background-home-tablet.jpg);
-        background-size: 200%;
+        background-size: 210%;
+        background-repeat: no-repeat;
 
     }
     .links{
